@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fceecd;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #6A959D;
+}
+
+footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    background-color: #6A959D;
+}
+
+.nb {
+    background-color: #553B00;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(233,11, 23, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255,255,255,.9);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 178, 170,.55);
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(240, 196, 196, 0.9);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 196, 196, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+ul.navbar-nav {
+    width: 100%;
+}
+
+.thesis-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-btn, .card-button, .register-btn {
+    background-color: #553B00;
+    border: #553B00;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-btn:hover, .card-button:hover, .register-btn:hover {
+    background-color: #977f46;
+}
+
+.card {
+        transition: 500ms ease-in-out all;
+        border: 1px solid #6A959D;
+        width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+}
+
+.about-img {
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
